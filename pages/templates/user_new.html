@@ -1,0 +1,6 @@
+<form action="/user_create/" method="POST">
+    {% csrf_token %}
+    <input type="text" name="name">
+    <input type="password" name="pwd">
+    <input type="submit" value="마지막제출">
+</form>
